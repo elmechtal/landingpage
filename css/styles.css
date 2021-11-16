@@ -34,6 +34,10 @@ header {
     width: 400px;
     height: 200px;
     background-color: #e5e7eb;
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .top {
