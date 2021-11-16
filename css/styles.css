@@ -1,0 +1,154 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+}
+
+header {
+    padding: 50px 0;
+    display: flex  ;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #031938;
+
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.image {
+    width: 400px;
+    height: 200px;
+    background-color: #e5e7eb;
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+    background-color: #031938;
+    color: white;
+    padding: 80px 25px;
+    align-items: center;
+}
+
+h1 {
+    padding: 5px;
+}
+
+p {
+    padding: 5px;
+}
+
+.presentation a {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #3882f6;
+    border-radius: 5px;
+}
+
+.card {
+    padding: 20px 0;
+    width: 165px;
+    height: 120px;
+    border: solid 2px  #031938ce;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+}
+
+h2 {
+    display: inline-block;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.card h2 {
+    padding: 10px 0;
+    margin: 0;
+}
+.card p {
+    padding: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.information {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.testimonials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 100px 50px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+}
+.quote p {
+    padding: 10px;
+    font-size: 18px;
+}
+
+#mark {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.cta {
+    display: flex;
+    padding: 80px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cta-content {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 20px 50px;
+    border-radius: 5px;
+
+}
+
+.cta-content a {
+    display: inline-block;
+    color: white;
+    border: solid 1px white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+footer {
+    color: white;
+    padding: 30px;
+    text-align: center;
+    background-color: #031938;
+}
